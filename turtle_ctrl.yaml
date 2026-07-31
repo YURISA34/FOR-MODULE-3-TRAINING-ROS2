@@ -1,0 +1,22 @@
+teleop_twist_joy_node:
+  ros__parameters:
+    axis_linear:
+      x: 1        # Left stick vertical (up/down)
+      y: 0        # Left stick horizontal (left/right)
+    scale_linear:
+      x: 1.0      # Linear speed scale
+      y: 1.0      # Linear speed scale
+    scale_linear_turbo:
+      x: 2.0      # Linear speed scale turbo
+      y: 2.0      # Linear speed scale turbo
+
+    axis_angular:
+      yaw: 2      # Right stick horizontal (left/right)
+    scale_angular:
+      yaw: 1.0    # Angular speed scale
+    scale_angular_turbo:
+      yaw: 2.0    # Angular speed scale turbo
+
+    enable_button: 4     # L1 (button index 4) = deadman switch
+    enable_turbo_button: 5  # R1 (button index 5) = turbo mode
+
